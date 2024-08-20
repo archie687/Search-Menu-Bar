@@ -1,0 +1,1394 @@
+[
+    {
+        "key": "sub1",
+        "label": "Product Categories",
+        "icon": "MailOutlined",
+        "children": [
+            {
+                "key": "11",
+                "label": "Electronics",
+                "children": [
+                    {
+                        "key": "111",
+                        "label": "Mobile Phones",
+                        "children": [
+                            {
+                                "key": "1111",
+                                "label": "Smartphones"
+                            },
+                            {
+                                "key": "1112",
+                                "label": "Feature Phones"
+                            },
+                            {
+                                "key": "1113",
+                                "label": "Accessories"
+                            },
+                            {
+                                "key": "1114",
+                                "label": "Chargers"
+                            },
+                            {
+                                "key": "1115",
+                                "label": "Headphones"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "112",
+                        "label": "Laptops",
+                        "children": [
+                            {
+                                "key": "1121",
+                                "label": "Ultrabooks"
+                            },
+                            {
+                                "key": "1122",
+                                "label": "Gaming Laptops"
+                            },
+                            {
+                                "key": "1123",
+                                "label": "Business Laptops"
+                            },
+                            {
+                                "key": "1124",
+                                "label": "Accessories"
+                            },
+                            {
+                                "key": "1125",
+                                "label": "Peripherals"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "113",
+                        "label": "Cameras",
+                        "children": [
+                            {
+                                "key": "1131",
+                                "label": "DSLR Cameras"
+                            },
+                            {
+                                "key": "1132",
+                                "label": "Mirrorless Cameras"
+                            },
+                            {
+                                "key": "1133",
+                                "label": "Point and Shoot"
+                            },
+                            {
+                                "key": "1134",
+                                "label": "Lenses"
+                            },
+                            {
+                                "key": "1135",
+                                "label": "Camera Accessories"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "114",
+                        "label": "Wearables",
+                        "children": [
+                            {
+                                "key": "1141",
+                                "label": "Smartwatches"
+                            },
+                            {
+                                "key": "1142",
+                                "label": "Fitness Trackers"
+                            },
+                            {
+                                "key": "1143",
+                                "label": "Health Monitors"
+                            },
+                            {
+                                "key": "1144",
+                                "label": "Accessories"
+                            },
+                            {
+                                "key": "1145",
+                                "label": "Replacement Bands"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "115",
+                        "label": "Audio",
+                        "children": [
+                            {
+                                "key": "1151",
+                                "label": "Speakers"
+                            },
+                            {
+                                "key": "1152",
+                                "label": "Headphones"
+                            },
+                            {
+                                "key": "1153",
+                                "label": "Earbuds"
+                            },
+                            {
+                                "key": "1154",
+                                "label": "Home Audio Systems"
+                            },
+                            {
+                                "key": "1155",
+                                "label": "Portable Audio"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "12",
+                "label": "Fashion",
+                "children": [
+                    {
+                        "key": "121",
+                        "label": "Men's Clothing",
+                        "children": [
+                            {
+                                "key": "1211",
+                                "label": "Shirts"
+                            },
+                            {
+                                "key": "1212",
+                                "label": "Pants"
+                            },
+                            {
+                                "key": "1213",
+                                "label": "Jackets"
+                            },
+                            {
+                                "key": "1214",
+                                "label": "Suits"
+                            },
+                            {
+                                "key": "1215",
+                                "label": "Accessories"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "122",
+                        "label": "Women's Clothing",
+                        "children": [
+                            {
+                                "key": "1221",
+                                "label": "Dresses"
+                            },
+                            {
+                                "key": "1222",
+                                "label": "Tops"
+                            },
+                            {
+                                "key": "1223",
+                                "label": "Skirts"
+                            },
+                            {
+                                "key": "1224",
+                                "label": "Jackets"
+                            },
+                            {
+                                "key": "1225",
+                                "label": "Accessories"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "123",
+                        "label": "Kids' Clothing",
+                        "children": [
+                            {
+                                "key": "1231",
+                                "label": "Boys' Clothing"
+                            },
+                            {
+                                "key": "1232",
+                                "label": "Girls' Clothing"
+                            },
+                            {
+                                "key": "1233",
+                                "label": "Infants' Clothing"
+                            },
+                            {
+                                "key": "1234",
+                                "label": "Outerwear"
+                            },
+                            {
+                                "key": "1235",
+                                "label": "Accessories"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "124",
+                        "label": "Footwear",
+                        "children": [
+                            {
+                                "key": "1241",
+                                "label": "Men's Shoes"
+                            },
+                            {
+                                "key": "1242",
+                                "label": "Women's Shoes"
+                            },
+                            {
+                                "key": "1243",
+                                "label": "Kids' Shoes"
+                            },
+                            {
+                                "key": "1244",
+                                "label": "Boots"
+                            },
+                            {
+                                "key": "1245",
+                                "label": "Sneakers"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "125",
+                        "label": "Accessories",
+                        "children": [
+                            {
+                                "key": "1251",
+                                "label": "Bags"
+                            },
+                            {
+                                "key": "1252",
+                                "label": "Belts"
+                            },
+                            {
+                                "key": "1253",
+                                "label": "Hats"
+                            },
+                            {
+                                "key": "1254",
+                                "label": "Scarves"
+                            },
+                            {
+                                "key": "1255",
+                                "label": "Gloves"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "13",
+                "label": "Home & Kitchen",
+                "children": [
+                    {
+                        "key": "131",
+                        "label": "Furniture",
+                        "children": [
+                            {
+                                "key": "1311",
+                                "label": "Living Room"
+                            },
+                            {
+                                "key": "1312",
+                                "label": "Bedroom"
+                            },
+                            {
+                                "key": "1313",
+                                "label": "Dining Room"
+                            },
+                            {
+                                "key": "1314",
+                                "label": "Office"
+                            },
+                            {
+                                "key": "1315",
+                                "label": "Outdoor"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "132",
+                        "label": "Kitchen Appliances",
+                        "children": [
+                            {
+                                "key": "1321",
+                                "label": "Refrigerators"
+                            },
+                            {
+                                "key": "1322",
+                                "label": "Microwaves"
+                            },
+                            {
+                                "key": "1323",
+                                "label": "Dishwashers"
+                            },
+                            {
+                                "key": "1324",
+                                "label": "Ovens"
+                            },
+                            {
+                                "key": "1325",
+                                "label": "Coffee Makers"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "133",
+                        "label": "Home Décor",
+                        "children": [
+                            {
+                                "key": "1331",
+                                "label": "Lighting"
+                            },
+                            {
+                                "key": "1332",
+                                "label": "Rugs"
+                            },
+                            {
+                                "key": "1333",
+                                "label": "Curtains"
+                            },
+                            {
+                                "key": "1334",
+                                "label": "Wall Art"
+                            },
+                            {
+                                "key": "1335",
+                                "label": "Furniture Accessories"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "134",
+                        "label": "Cleaning Supplies",
+                        "children": [
+                            {
+                                "key": "1341",
+                                "label": "Vacuum Cleaners"
+                            },
+                            {
+                                "key": "1342",
+                                "label": "Brooms & Mops"
+                            },
+                            {
+                                "key": "1343",
+                                "label": "Cleaning Agents"
+                            },
+                            {
+                                "key": "1344",
+                                "label": "Storage Solutions"
+                            },
+                            {
+                                "key": "1345",
+                                "label": "Laundry"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "135",
+                        "label": "Garden & Outdoor",
+                        "children": [
+                            {
+                                "key": "1351",
+                                "label": "Garden Furniture"
+                            },
+                            {
+                                "key": "1352",
+                                "label": "Grills"
+                            },
+                            {
+                                "key": "1353",
+                                "label": "Gardening Tools"
+                            },
+                            {
+                                "key": "1354",
+                                "label": "Planters"
+                            },
+                            {
+                                "key": "1355",
+                                "label": "Outdoor Décor"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "14",
+                "label": "Sports & Outdoors",
+                "children": [
+                    {
+                        "key": "141",
+                        "label": "Fitness Equipment",
+                        "children": [
+                            {
+                                "key": "1411",
+                                "label": "Treadmills"
+                            },
+                            {
+                                "key": "1412",
+                                "label": "Exercise Bikes"
+                            },
+                            {
+                                "key": "1413",
+                                "label": "Dumbbells"
+                            },
+                            {
+                                "key": "1414",
+                                "label": "Yoga Mats"
+                            },
+                            {
+                                "key": "1415",
+                                "label": "Resistance Bands"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "142",
+                        "label": "Outdoor Recreation",
+                        "children": [
+                            {
+                                "key": "1421",
+                                "label": "Camping Gear"
+                            },
+                            {
+                                "key": "1422",
+                                "label": "Hiking Equipment"
+                            },
+                            {
+                                "key": "1423",
+                                "label": "Cycling Gear"
+                            },
+                            {
+                                "key": "1424",
+                                "label": "Fishing Equipment"
+                            },
+                            {
+                                "key": "1425",
+                                "label": "Outdoor Clothing"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "143",
+                        "label": "Sports Apparel",
+                        "children": [
+                            {
+                                "key": "1431",
+                                "label": "Running Shoes"
+                            },
+                            {
+                                "key": "1432",
+                                "label": "Sports Bras"
+                            },
+                            {
+                                "key": "1433",
+                                "label": "Athletic Shorts"
+                            },
+                            {
+                                "key": "1434",
+                                "label": "Training Wear"
+                            },
+                            {
+                                "key": "1435",
+                                "label": "Sporting Accessories"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "144",
+                        "label": "Team Sports",
+                        "children": [
+                            {
+                                "key": "1441",
+                                "label": "Football"
+                            },
+                            {
+                                "key": "1442",
+                                "label": "Basketball"
+                            },
+                            {
+                                "key": "1443",
+                                "label": "Soccer"
+                            },
+                            {
+                                "key": "1444",
+                                "label": "Baseball"
+                            },
+                            {
+                                "key": "1445",
+                                "label": "Volleyball"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "145",
+                        "label": "Winter Sports",
+                        "children": [
+                            {
+                                "key": "1451",
+                                "label": "Skiing"
+                            },
+                            {
+                                "key": "1452",
+                                "label": "Snowboarding"
+                            },
+                            {
+                                "key": "1453",
+                                "label": "Winter Jackets"
+                            },
+                            {
+                                "key": "1454",
+                                "label": "Snow Gear"
+                            },
+                            {
+                                "key": "1455",
+                                "label": "Thermal Wear"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "15",
+                "label": "Books & Media",
+                "children": [
+                    {
+                        "key": "151",
+                        "label": "Books",
+                        "children": [
+                            {
+                                "key": "1511",
+                                "label": "Fiction"
+                            },
+                            {
+                                "key": "1512",
+                                "label": "Non-Fiction"
+                            },
+                            {
+                                "key": "1513",
+                                "label": "Biographies"
+                            },
+                            {
+                                "key": "1514",
+                                "label": "Children's Books"
+                            },
+                            {
+                                "key": "1515",
+                                "label": "Educational"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "152",
+                        "label": "Movies & TV Shows",
+                        "children": [
+                            {
+                                "key": "1521",
+                                "label": "Action"
+                            },
+                            {
+                                "key": "1522",
+                                "label": "Comedy"
+                            },
+                            {
+                                "key": "1523",
+                                "label": "Drama"
+                            },
+                            {
+                                "key": "1524",
+                                "label": "Documentary"
+                            },
+                            {
+                                "key": "1525",
+                                "label": "Kids' Shows"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "153",
+                        "label": "Music",
+                        "children": [
+                            {
+                                "key": "1531",
+                                "label": "Pop"
+                            },
+                            {
+                                "key": "1532",
+                                "label": "Rock"
+                            },
+                            {
+                                "key": "1533",
+                                "label": "Jazz"
+                            },
+                            {
+                                "key": "1534",
+                                "label": "Classical"
+                            },
+                            {
+                                "key": "1535",
+                                "label": "Hip-Hop"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "154",
+                        "label": "Video Games",
+                        "children": [
+                            {
+                                "key": "1541",
+                                "label": "Action"
+                            },
+                            {
+                                "key": "1542",
+                                "label": "Adventure"
+                            },
+                            {
+                                "key": "1543",
+                                "label": "Role-Playing"
+                            },
+                            {
+                                "key": "1544",
+                                "label": "Strategy"
+                            },
+                            {
+                                "key": "1545",
+                                "label": "Simulation"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "155",
+                        "label": "Stationery",
+                        "children": [
+                            {
+                                "key": "1551",
+                                "label": "Notebooks"
+                            },
+                            {
+                                "key": "1552",
+                                "label": "Pens & Pencils"
+                            },
+                            {
+                                "key": "1553",
+                                "label": "Art Supplies"
+                            },
+                            {
+                                "key": "1554",
+                                "label": "Office Supplies"
+                            },
+                            {
+                                "key": "1555",
+                                "label": "Calendars & Planners"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "key": "sub2",
+        "label": "Product Categories",
+        "icon": "AppstoreOutlined",
+        "children": [
+            {
+                "key": "21",
+                "label": "Innovative Technologies",
+                "children": [
+                    {
+                        "key": "211",
+                        "label": "Cutting-Edge Gadgets",
+                        "children": [
+                            {
+                                "key": "2111",
+                                "label": "Smart Wearables"
+                            },
+                            {
+                                "key": "2112",
+                                "label": "AI-Powered Devices"
+                            },
+                            {
+                                "key": "2113",
+                                "label": "Augmented Reality Tools"
+                            },
+                            {
+                                "key": "2114",
+                                "label": "Home Automation Systems"
+                            },
+                            {
+                                "key": "2115",
+                                "label": "Quantum Computing Accessories"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "212",
+                        "label": "Advanced Computing Solutions",
+                        "children": [
+                            {
+                                "key": "2121",
+                                "label": "High-Performance Laptops"
+                            },
+                            {
+                                "key": "2122",
+                                "label": "Gaming Desktops"
+                            },
+                            {
+                                "key": "2123",
+                                "label": "Portable Workstations"
+                            },
+                            {
+                                "key": "2124",
+                                "label": "Cloud-Based Solutions"
+                            },
+                            {
+                                "key": "2125",
+                                "label": "Data Processing Units"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "213",
+                        "label": "Future Tech Trends",
+                        "children": [
+                            {
+                                "key": "2131",
+                                "label": "Blockchain Innovations"
+                            },
+                            {
+                                "key": "2132",
+                                "label": "5G Technology Advances"
+                            },
+                            {
+                                "key": "2133",
+                                "label": "IoT Developments"
+                            },
+                            {
+                                "key": "2134",
+                                "label": "Edge Computing"
+                            },
+                            {
+                                "key": "2135",
+                                "label": "Biometric Security"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "214",
+                        "label": "Next-Gen Electronics",
+                        "children": [
+                            {
+                                "key": "2141",
+                                "label": "Flexible Displays"
+                            },
+                            {
+                                "key": "2142",
+                                "label": "Wearable Sensors"
+                            },
+                            {
+                                "key": "2143",
+                                "label": "Augmented Reality Glasses"
+                            },
+                            {
+                                "key": "2144",
+                                "label": "Smart Home Appliances"
+                            },
+                            {
+                                "key": "2145",
+                                "label": "Advanced Robotics"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "215",
+                        "label": "Innovative Networking",
+                        "children": [
+                            {
+                                "key": "2151",
+                                "label": "High-Speed Routers"
+                            },
+                            {
+                                "key": "2152",
+                                "label": "Mesh Networking Systems"
+                            },
+                            {
+                                "key": "2153",
+                                "label": "Network Security Devices"
+                            },
+                            {
+                                "key": "2154",
+                                "label": "IoT Hubs"
+                            },
+                            {
+                                "key": "2155",
+                                "label": "5G Modems"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "22",
+                "label": "High-Tech Gadgets",
+                "children": [
+                    {
+                        "key": "221",
+                        "label": "Wearable Technology",
+                        "children": [
+                            {
+                                "key": "2211",
+                                "label": "Smartwatches"
+                            },
+                            {
+                                "key": "2212",
+                                "label": "Fitness Trackers"
+                            },
+                            {
+                                "key": "2213",
+                                "label": "Virtual Reality Headsets"
+                            },
+                            {
+                                "key": "2214",
+                                "label": "Augmented Reality Glasses"
+                            },
+                            {
+                                "key": "2215",
+                                "label": "Smart Rings"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "222",
+                        "label": "Portable Electronics",
+                        "children": [
+                            {
+                                "key": "2221",
+                                "label": "Bluetooth Headphones"
+                            },
+                            {
+                                "key": "2222",
+                                "label": "Portable Speakers"
+                            },
+                            {
+                                "key": "2223",
+                                "label": "Wireless Earbuds"
+                            },
+                            {
+                                "key": "2224",
+                                "label": "Power Banks"
+                            },
+                            {
+                                "key": "2225",
+                                "label": "Smartphone Accessories"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "223",
+                        "label": "Smart Home Devices",
+                        "children": [
+                            {
+                                "key": "2231",
+                                "label": "Smart Thermostats"
+                            },
+                            {
+                                "key": "2232",
+                                "label": "Smart Lighting Systems"
+                            },
+                            {
+                                "key": "2233",
+                                "label": "Smart Security Cameras"
+                            },
+                            {
+                                "key": "2234",
+                                "label": "Voice Assistants"
+                            },
+                            {
+                                "key": "2235",
+                                "label": "Smart Locks"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "224",
+                        "label": "Personal Electronics",
+                        "children": [
+                            {
+                                "key": "2241",
+                                "label": "Smartphones"
+                            },
+                            {
+                                "key": "2242",
+                                "label": "Tablets"
+                            },
+                            {
+                                "key": "2243",
+                                "label": "E-Readers"
+                            },
+                            {
+                                "key": "2244",
+                                "label": "Digital Cameras"
+                            },
+                            {
+                                "key": "2245",
+                                "label": "Portable Media Players"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "225",
+                        "label": "Entertainment Tech",
+                        "children": [
+                            {
+                                "key": "2251",
+                                "label": "Smart TVs"
+                            },
+                            {
+                                "key": "2252",
+                                "label": "Home Theater Systems"
+                            },
+                            {
+                                "key": "2253",
+                                "label": "Streaming Devices"
+                            },
+                            {
+                                "key": "2254",
+                                "label": "Gaming Consoles"
+                            },
+                            {
+                                "key": "2255",
+                                "label": "VR Gaming Systems"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "23",
+                "label": "Electronic Equipment",
+                "children": [
+                    {
+                        "key": "231",
+                        "label": "Professional Electronics",
+                        "children": [
+                            {
+                                "key": "2311",
+                                "label": "Broadcast Equipment"
+                            },
+                            {
+                                "key": "2312",
+                                "label": "Studio Lighting"
+                            },
+                            {
+                                "key": "2313",
+                                "label": "High-End Audio Gear"
+                            },
+                            {
+                                "key": "2314",
+                                "label": "Professional Monitors"
+                            },
+                            {
+                                "key": "2315",
+                                "label": "Signal Processors"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "232",
+                        "label": "Consumer Electronics",
+                        "children": [
+                            {
+                                "key": "2321",
+                                "label": "Personal Audio"
+                            },
+                            {
+                                "key": "2322",
+                                "label": "Television Accessories"
+                            },
+                            {
+                                "key": "2323",
+                                "label": "Kitchen Gadgets"
+                            },
+                            {
+                                "key": "2324",
+                                "label": "Fitness Electronics"
+                            },
+                            {
+                                "key": "2325",
+                                "label": "Home Entertainment"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "233",
+                        "label": "Networking Solutions",
+                        "children": [
+                            {
+                                "key": "2331",
+                                "label": "Business Routers"
+                            },
+                            {
+                                "key": "2332",
+                                "label": "Enterprise Switches"
+                            },
+                            {
+                                "key": "2333",
+                                "label": "Network Attached Storage"
+                            },
+                            {
+                                "key": "2334",
+                                "label": "VPN Gateways"
+                            },
+                            {
+                                "key": "2335",
+                                "label": "Network Management Tools"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "234",
+                        "label": "Audio-Visual Equipment",
+                        "children": [
+                            {
+                                "key": "2341",
+                                "label": "Projectors"
+                            },
+                            {
+                                "key": "2342",
+                                "label": "Home Theater Projectors"
+                            },
+                            {
+                                "key": "2343",
+                                "label": "Audio Mixers"
+                            },
+                            {
+                                "key": "2344",
+                                "label": "Surround Sound Systems"
+                            },
+                            {
+                                "key": "2345",
+                                "label": "Sound Bars"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "235",
+                        "label": "Office Technology",
+                        "children": [
+                            {
+                                "key": "2351",
+                                "label": "Printers"
+                            },
+                            {
+                                "key": "2352",
+                                "label": "Scanners"
+                            },
+                            {
+                                "key": "2353",
+                                "label": "Fax Machines"
+                            },
+                            {
+                                "key": "2354",
+                                "label": "Shredders"
+                            },
+                            {
+                                "key": "2355",
+                                "label": "Office Projectors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "24",
+                "label": "Home Appliances",
+                "children": [
+                    {
+                        "key": "241",
+                        "label": "Kitchen Appliances",
+                        "children": [
+                            {
+                                "key": "2411",
+                                "label": "Refrigerators"
+                            },
+                            {
+                                "key": "2412",
+                                "label": "Ovens"
+                            },
+                            {
+                                "key": "2413",
+                                "label": "Dishwashers"
+                            },
+                            {
+                                "key": "2414",
+                                "label": "Microwaves"
+                            },
+                            {
+                                "key": "2415",
+                                "label": "Coffee Makers"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "242",
+                        "label": "Laundry Appliances",
+                        "children": [
+                            {
+                                "key": "2421",
+                                "label": "Washing Machines"
+                            },
+                            {
+                                "key": "2422",
+                                "label": "Dryers"
+                            },
+                            {
+                                "key": "2423",
+                                "label": "Washer-Dryer Combos"
+                            },
+                            {
+                                "key": "2424",
+                                "label": "Steam Irons"
+                            },
+                            {
+                                "key": "2425",
+                                "label": "Laundry Accessories"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "243",
+                        "label": "Climate Control",
+                        "children": [
+                            {
+                                "key": "2431",
+                                "label": "Air Conditioners"
+                            },
+                            {
+                                "key": "2432",
+                                "label": "Heaters"
+                            },
+                            {
+                                "key": "2433",
+                                "label": "Dehumidifiers"
+                            },
+                            {
+                                "key": "2434",
+                                "label": "Humidifiers"
+                            },
+                            {
+                                "key": "2435",
+                                "label": "Thermostats"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "244",
+                        "label": "Home Comfort",
+                        "children": [
+                            {
+                                "key": "2441",
+                                "label": "Air Purifiers"
+                            },
+                            {
+                                "key": "2442",
+                                "label": "Electric Blankets"
+                            },
+                            {
+                                "key": "2443",
+                                "label": "Massage Chairs"
+                            },
+                            {
+                                "key": "2444",
+                                "label": "Essential Oil Diffusers"
+                            },
+                            {
+                                "key": "2445",
+                                "label": "Fan Heaters"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "245",
+                        "label": "Home Cleaning",
+                        "children": [
+                            {
+                                "key": "2451",
+                                "label": "Vacuum Cleaners"
+                            },
+                            {
+                                "key": "2452",
+                                "label": "Steam Cleaners"
+                            },
+                            {
+                                "key": "2453",
+                                "label": "Robotic Vacuums"
+                            },
+                            {
+                                "key": "2454",
+                                "label": "Carpet Cleaners"
+                            },
+                            {
+                                "key": "2455",
+                                "label": "Cleaning Accessories"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "25",
+                "label": "Office Supplies",
+                "children": [
+                    {
+                        "key": "251",
+                        "label": "Stationery",
+                        "children": [
+                            {
+                                "key": "2511",
+                                "label": "Notebooks"
+                            },
+                            {
+                                "key": "2512",
+                                "label": "Pens and Pencils"
+                            },
+                            {
+                                "key": "2513",
+                                "label": "Folders"
+                            },
+                            {
+                                "key": "2514",
+                                "label": "Binders"
+                            },
+                            {
+                                "key": "2515",
+                                "label": "Desk Organizers"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "252",
+                        "label": "Office Furniture",
+                        "children": [
+                            {
+                                "key": "2521",
+                                "label": "Desks"
+                            },
+                            {
+                                "key": "2522",
+                                "label": "Chairs"
+                            },
+                            {
+                                "key": "2523",
+                                "label": "Filing Cabinets"
+                            },
+                            {
+                                "key": "2524",
+                                "label": "Bookcases"
+                            },
+                            {
+                                "key": "2525",
+                                "label": "Office Accessories"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "253",
+                        "label": "Office Equipment",
+                        "children": [
+                            {
+                                "key": "2531",
+                                "label": "Printers"
+                            },
+                            {
+                                "key": "2532",
+                                "label": "Shredders"
+                            },
+                            {
+                                "key": "2533",
+                                "label": "Scanners"
+                            },
+                            {
+                                "key": "2534",
+                                "label": "Fax Machines"
+                            },
+                            {
+                                "key": "2535",
+                                "label": "Label Makers"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "254",
+                        "label": "Office Technology",
+                        "children": [
+                            {
+                                "key": "2541",
+                                "label": "Telephones"
+                            },
+                            {
+                                "key": "2542",
+                                "label": "VoIP Systems"
+                            },
+                            {
+                                "key": "2543",
+                                "label": "Conference Equipment"
+                            },
+                            {
+                                "key": "2544",
+                                "label": "Projectors"
+                            },
+                            {
+                                "key": "2545",
+                                "label": "Presentation Tools"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "255",
+                        "label": "Cleaning Supplies",
+                        "children": [
+                            {
+                                "key": "2551",
+                                "label": "Cleaning Chemicals"
+                            },
+                            {
+                                "key": "2552",
+                                "label": "Cleaning Cloths"
+                            },
+                            {
+                                "key": "2553",
+                                "label": "Trash Bags"
+                            },
+                            {
+                                "key": "2554",
+                                "label": "Disinfectants"
+                            },
+                            {
+                                "key": "2555",
+                                "label": "Brooms and Mops"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+      "key": "sub3",
+      "label": "Grocereis",
+      "icon":"LinkOutlined"
+
+    },
+    {
+      "key": "sub4",
+      "label": "Cosmetics",
+      "icon":"DesktopOutlined"
+    },
+    {
+      "key": "sub5",
+      "label": "Household",
+      "icon":"ContainerOutlined"
+    }
+]
