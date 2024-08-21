@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { AppstoreOutlined, ContainerOutlined, DesktopOutlined, LinkOutlined, MailOutlined, SearchOutlined } from '@ant-design/icons';
 import { Input, Menu } from 'antd';
+import type { MenuProps } from 'antd';
 import './App.css';
 import data from "./data.json";
 
@@ -18,6 +19,7 @@ const App: React.FC = () => {
   const [filteredData, setFilteredData] = useState<MenuItem[]>([]);
   const [notFound, setNotFound] = useState(false);
   const [openKeys, setOpenKeys] = useState<string[]>([]);
+  const [btn, setBtn] = useState<string | React.ReactNode>(''); 
 
   const iconMap: { [key: string]: React.ReactNode } = {
     MailOutlined: <MailOutlined />,
@@ -59,42 +61,36 @@ const App: React.FC = () => {
     const openKeys: string[] = [];
 
     const searchItems = (items: MenuItem[], parentKeys: string[] = []): MenuItem[] => {
-      return items.reduce((result: MenuItem[], item) => {
+      return items.map((item) => {
         let updatedItem = { ...item };
         const itemKey = item.key;
+        let itemMatches = false;
 
         if (item.children) {
           const childResult = searchItems(item.children, [...parentKeys, itemKey]);
 
-          if (childResult.length > 0 || (typeof item.label === 'string' && item.label.toLowerCase().includes(query.toLowerCase()))) {
+          if (childResult.length > 0) {
+            updatedItem.children = childResult;
+            itemMatches = true;
             openKeys.push(itemKey);
-            updatedItem = { 
-              ...updatedItem, 
-              children: childResult,
-              label: typeof item.label === 'string' && item.label.toLowerCase().includes(query.toLowerCase())
-                ? highlightText(item.label, query)
-                : item.label
-            };
-          } else {
-            updatedItem = { 
-              ...updatedItem, 
-              children: undefined 
-            };
           }
-        } else if (typeof item.label === 'string' && item.label.toLowerCase().includes(query.toLowerCase())) {
+        }
+
+        if (typeof item.label === 'string' && item.label.toLowerCase().includes(query.toLowerCase())) {
           updatedItem.label = highlightText(item.label, query);
-          openKeys.push(...parentKeys);
+          itemMatches = true;
         }
 
-        if (updatedItem.children || typeof updatedItem.label === 'string' && updatedItem.label.toLowerCase().includes(query.toLowerCase())) {
-          result.push(updatedItem);
+        if (itemMatches || updatedItem.children) {
+          openKeys.push(...parentKeys, itemKey);
         }
 
-        return result;
-      }, []);
+        return updatedItem;
+      });
     };
 
-    return { items: searchItems(items), openKeys };
+    const resultItems = searchItems(items);
+    return { items: resultItems, openKeys };
   };
 
   const onSearch = (value: string) => {
@@ -106,12 +102,36 @@ const App: React.FC = () => {
       const { items, openKeys } = searchTree(modifiedData, value);
       if (items.length === 0) {
         setNotFound(true);
-        setFilteredData([]);
+        setFilteredData(modifiedData); 
+        setOpenKeys([]);
       } else {
         setNotFound(false);
         setFilteredData(items);
-        setOpenKeys(openKeys);
+        setOpenKeys(openKeys); 
       }
+    }
+  };
+
+  const handleClick: MenuProps['onClick'] = (e) => {
+    const findItemByKey = (items: MenuItem[], key: string): MenuItem | undefined => {
+      for (const item of items) {
+        if (item.key === key) {
+          return item;
+        }
+        if (item.children) {
+          const found = findItemByKey(item.children, key);
+          if (found) {
+            return found;
+          }
+        }
+      }
+    };
+
+    const clickedItem = findItemByKey(modifiedData, e.key);
+    if (clickedItem && clickedItem.label) {
+      setBtn(typeof clickedItem.label === 'string' ? clickedItem.label : '');
+    } else {
+      setBtn('');
     }
   };
 
@@ -125,21 +145,31 @@ const App: React.FC = () => {
 
   return (
     <>
-      <Search
+    <div className="container">
+    <div className="left">
+    <Input
         prefix={<SearchOutlined />}
         placeholder="search text"
         style={{ width: 257 }}
         onChange={(e) => onSearch(e.target.value)}
         suffix={notFound ? <span style={{ color: '#ccc' }}> Not Found </span> : null}
       />
-
+      
       <Menu
         style={{ width: 256 }}
         mode="inline"
         items={filteredData}
         onOpenChange={handleMenuOpenChange}
         openKeys={openKeys}
+        onClick={handleClick}
       />
+    </div>
+      
+      <div className='btn'>
+      <span>{btn || "Click on a menu item to see the label here"}</span>
+      </div>
+    </div>
+    
     </>
   );
 };

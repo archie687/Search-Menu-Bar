@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  /* color: red;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem; */
+  display: flex;
+  gap: 20rem;
+  /* position: ; */
+}
+
+.btn{
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: sticky;
+  color: blue;
+}
