@@ -12,6 +12,11 @@ type MenuItem = {
   children?: MenuItem[];
 };
 
+interface dataofJson{
+  key:string;
+  label:string;
+}
+
 const { Search } = Input;
 
 const App: React.FC = () => {
@@ -104,6 +109,7 @@ const App: React.FC = () => {
         setNotFound(true);
         setFilteredData(modifiedData); 
         setOpenKeys([]);
+        // setBtn('');
       } else {
         setNotFound(false);
         setFilteredData(items);
@@ -112,26 +118,10 @@ const App: React.FC = () => {
     }
   };
 
-  const handleClick: MenuProps['onClick'] = (e) => {
-    const findItemByKey = (items: MenuItem[], key: string): MenuItem | undefined => {
-      for (const item of items) {
-        if (item.key === key) {
-          return item;
-        }
-        if (item.children) {
-          const found = findItemByKey(item.children, key);
-          if (found) {
-            return found;
-          }
-        }
-      }
-    };
-
-    const clickedItem = findItemByKey(modifiedData, e.key);
-    if (clickedItem && clickedItem.label) {
-      setBtn(typeof clickedItem.label === 'string' ? clickedItem.label : '');
-    } else {
-      setBtn('');
+  const handleClick = (e: React.MouseEvent<HTMLSpanElement>) => {
+    const target = e.target as HTMLElement || null;
+    if (target && target.tagName === 'SPAN' && target.textContent) {
+      setBtn(target.textContent);
     }
   };
 
@@ -146,7 +136,7 @@ const App: React.FC = () => {
   return (
     <>
     <div className="container">
-    <div className="left">
+    <div className="left" onClick={handleClick}>
     <Input
         prefix={<SearchOutlined />}
         placeholder="search text"
@@ -161,7 +151,6 @@ const App: React.FC = () => {
         items={filteredData}
         onOpenChange={handleMenuOpenChange}
         openKeys={openKeys}
-        onClick={handleClick}
       />
     </div>
       
@@ -175,3 +164,7 @@ const App: React.FC = () => {
 };
 
 export default App;
+function setClickedLabel(textContent: any) {
+  throw new Error('Function not implemented.');
+}
+
