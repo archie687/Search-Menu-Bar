@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { AppstoreOutlined, ContainerOutlined, DesktopOutlined, LinkOutlined, MailOutlined, SearchOutlined } from '@ant-design/icons';
 import { Input, Menu } from 'antd';
-import type { MenuProps } from 'antd';
 import './App.css';
 import data from "./data.json";
 
@@ -11,13 +10,6 @@ type MenuItem = {
   icon?: React.ReactNode;
   children?: MenuItem[];
 };
-
-interface dataofJson{
-  key:string;
-  label:string;
-}
-
-const { Search } = Input;
 
 const App: React.FC = () => {
   const [modifiedData, setModifiedData] = useState<MenuItem[]>([]);
@@ -59,7 +51,7 @@ const App: React.FC = () => {
     );
   };
 
-  const searchTree = (
+  const searchTree = ( 
     items: MenuItem[],
     query: string
   ): { items: MenuItem[]; openKeys: string[] } => {
@@ -70,29 +62,38 @@ const App: React.FC = () => {
         let updatedItem = { ...item };
         const itemKey = item.key;
         let itemMatches = false;
-
+    
+       
+        const keyMatchesQuery = typeof item.key === 'string' && item.key.toLowerCase().includes(query.toLowerCase());
+        const labelMatchesQuery = typeof item.label === 'string' && item.label.toLowerCase().includes(query.toLowerCase());
+    
         if (item.children) {
+          
           const childResult = searchItems(item.children, [...parentKeys, itemKey]);
-
+    
           if (childResult.length > 0) {
             updatedItem.children = childResult;
             itemMatches = true;
-            openKeys.push(itemKey);
           }
         }
-
-        if (typeof item.label === 'string' && item.label.toLowerCase().includes(query.toLowerCase())) {
-          updatedItem.label = highlightText(item.label, query);
+    
+        
+        if (keyMatchesQuery || labelMatchesQuery) {
+          openKeys.push(...parentKeys);
           itemMatches = true;
         }
-
-        if (itemMatches || updatedItem.children) {
-          openKeys.push(...parentKeys, itemKey);
+    
+       
+        if (labelMatchesQuery && typeof item.label === 'string') {
+          updatedItem.label = highlightText(item.label, query);
         }
-
+    
+        
         return updatedItem;
       });
     };
+    
+    
 
     const resultItems = searchItems(items);
     return { items: resultItems, openKeys };
@@ -109,7 +110,6 @@ const App: React.FC = () => {
         setNotFound(true);
         setFilteredData(modifiedData); 
         setOpenKeys([]);
-        // setBtn('');
       } else {
         setNotFound(false);
         setFilteredData(items);
@@ -135,6 +135,7 @@ const App: React.FC = () => {
 
   return (
     <>
+    
     <div className="container">
     <div className="left" onClick={handleClick}>
     <Input
@@ -144,7 +145,7 @@ const App: React.FC = () => {
         onChange={(e) => onSearch(e.target.value)}
         suffix={notFound ? <span style={{ color: '#ccc' }}> Not Found </span> : null}
       />
-      
+      {/* {JSON.stringify(openKeys)} */}
       <Menu
         style={{ width: 256 }}
         mode="inline"
@@ -164,7 +165,4 @@ const App: React.FC = () => {
 };
 
 export default App;
-function setClickedLabel(textContent: any) {
-  throw new Error('Function not implemented.');
-}
 
