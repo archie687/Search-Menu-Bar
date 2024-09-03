@@ -43,8 +43,22 @@
   align-items: center;
   padding: 10rem; */
   display: flex;
+  justify-content: center;
   gap: 20rem;
   /* position: ; */
+}
+
+.ant-menu {
+  background: linear-gradient(to right, #fff, #f0f2f5);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.ant-menu-item, .ant-menu-submenu-title {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .btn{
@@ -54,3 +68,25 @@
   position: sticky;
   color: blue;
 }
+
+.selected-path {
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  /* padding: 5px; */
+}
+
+/* .ant-menu-submenu-title, .ant-menu-item {
+  transition: background-color 0.3s ease;
+} */
+
+/* .ant-menu-item:hover, .ant-menu-submenu-title:hover {
+  background-color: #e6f7ff;
+  color: #1890ff;
+} */
+
+/* .ant-menu-item-active, .ant-menu-submenu-title-active {
+  background-color: #bae7ff;
+  font-weight: bold;
+} */
+
